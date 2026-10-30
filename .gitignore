@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+*.local.json
+output/
+cache/
+*.capture.json
+*.complete.json

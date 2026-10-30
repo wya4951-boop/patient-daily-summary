@@ -1,0 +1,30 @@
+{
+  "_setup": "共享模板，不写入个人信息。首次绑定自动保存到用户目录 .workbuddy/patient-daily-summary/config.json；可用 --config 指定独立配置。paths 空值使用当前用户默认路径，data_root 必须按本机填写。",
+  "ward": "",
+  "beds": [],
+  "sources": [],
+  "exclude_note": "",
+  "window": {
+    "start_hour": 7,
+    "timezone_note": "北京时间：前一日 07:00（含）至当日 07:00（不含）；07:00 前自动运行不生成未结束窗口，不追补更早日期。",
+    "timezone": "Asia/Shanghai"
+  },
+  "paths": {
+    "py": "",
+    "wx_daily": "",
+    "wx_find": "",
+    "data_root": "",
+    "workdir": "",
+    "out": "",
+    "latest": "",
+    "reports": ""
+  },
+  "schedule": {
+    "daily_time": "07:00",
+    "retry_interval_minutes": 15,
+    "catch_up": "current_calendar_day_only",
+    "scrape_timeout_seconds": 600,
+    "require_all_sources": true,
+    "scheduler_configured": false
+  }
+}
